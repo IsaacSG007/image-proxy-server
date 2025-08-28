@@ -1,0 +1,22 @@
+{
+  "name": "image-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server for handling OpenAI image CORS issues",
+  "main": "proxy-server.js",
+  "packageManager": "npm@latest",
+  "scripts": {
+    "start": "node proxy-server.js",
+    "dev": "nodemon proxy-server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
