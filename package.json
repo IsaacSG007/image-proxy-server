@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Proxy server for handling OpenAI image CORS issues",
   "main": "proxy-server.js",
-  "packageManager": "npm@latest",
   "scripts": {
     "start": "node proxy-server.js",
     "dev": "nodemon proxy-server.js",
